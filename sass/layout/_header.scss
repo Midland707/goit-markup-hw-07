@@ -32,7 +32,7 @@
 .menu {
   display: flex;
 
-  & li:not(:last-child) {
+  & .menu-item:not(:last-child) {
     margin-right: 50px;
   }
 }
@@ -73,7 +73,7 @@
   display: flex;
   margin-left: auto;
 
-  & li:not(:last-child) {
+  & .contacts-item:not(:last-child) {
     margin-right: 50px;
   }
 }
