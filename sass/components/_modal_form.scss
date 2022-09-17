@@ -4,7 +4,7 @@
   flex-direction: column;
 }
 
-.modal-form-title {
+.modal-form__title {
   margin: 0;
   font-weight: 700;
   font-size: 20px;
@@ -13,11 +13,11 @@
   margin-bottom: 12px;
 }
 
-.modal-form-field {
+.modal-form__field {
   margin-bottom: 10px;
 }
 
-.modal-form-field-desk {
+.modal-form__field-desk {
   display: block;
 
   font-size: 12px;
@@ -27,11 +27,11 @@
   margin-bottom: 4px;
 }
 
-.modal-form-input-wrapper {
+.modal-form__input-wrapper {
   position: relative;
 }
 
-.modal-form-icons {
+.modal-form__icons {
   fill: var(--primary-color);
   position: absolute;
   top: 50%;
@@ -40,12 +40,12 @@
 
   transition: fill var(--transition-durat-and-func);
 
-  .modal-form-input:focus + & {
+  .modal-form__input:focus + & {
     fill: var(--active-color);
   }
 }
 
-.modal-form-input {
+.modal-form__input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   height: 40px;
@@ -60,11 +60,11 @@
   }
 }
 
-.modal-form-field-comment {
+.modal-form__field-comment {
   margin-bottom: 20px;
 }
 
-.modal-form-comment {
+.modal-form__comment {
   display: block;
   resize: none;
   height: 120px;
@@ -86,7 +86,7 @@
   }
 }
 
-.modal-form-check-field {
+.modal-form__check-field {
   display: flex;
   align-items: center;
   align-self: center;
@@ -96,37 +96,37 @@
   margin-bottom: 30px;
 }
 
-.modal-form-checkbox {
+.modal-form__checkbox {
   border: 2px solid var(--primary-color);
   border-radius: 3px;
   cursor: pointer;
   margin-right: 7px;
 
-  .modal-form-check:checked + & {
+  .modal-form__check:checked + & {
     background-color: var(--active-color);
     border-color: var(--active-color);
   }
 
-  .modal-form-check:focus + & {
+  .modal-form__check:focus + & {
     box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.8);
     border-color: var(--active-color);
   }
 }
 
-.modal-form-checkbox-icon {
+.modal-form__checkbox-icon {
   display: none;
   fill: var(--third-color);
 
-  .modal-form-check:checked + .modal-form-checkbox & {
+  .modal-form__check:checked + .modal-form__checkbox & {
     display: block;
   }
 }
 
-.modal-form-check-link {
+.modal-form__check-link {
   color: var(--active-color);
 }
 
-.modal-send-btn {
+.modal-form__send-btn {
   width: 200px;
   height: 50px;
 

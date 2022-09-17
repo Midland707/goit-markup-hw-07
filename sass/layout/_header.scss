@@ -49,7 +49,8 @@
   transition: color var(--transition-durat-and-func);
 
   &:hover,
-  &:focus {
+  &:focus,
+  &_current {
     color: var(--active-color);
   }
 
@@ -63,10 +64,6 @@
     background-color: var(--active-color);
     border-radius: 2px;
   }
-}
-
-.menu__link_current {
-  color: var(--active-color);
 }
 
 .contacts {
