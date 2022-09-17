@@ -1,8 +1,8 @@
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-item {
+.features__item {
   width: 270px;
 
   &:not(:last-child) {
@@ -10,7 +10,7 @@
   }
 }
 
-.feature-icon-box {
+.features__icon-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
   border-radius: 4px;
 }
 
-.feature-title {
+.features__title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -28,7 +28,7 @@
   margin-bottom: 10px;
 }
 
-.feature-description {
+.features__description {
   line-height: 1.7;
   color: var(--second-color);
   margin: 0;
