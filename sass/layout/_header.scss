@@ -40,7 +40,7 @@
   position: relative;
   padding-top: 33px;
   padding-bottom: 33px;
-  @include font(16px, 500, 14px, 0.02em);
+  @include font(16px, 500, $letsp: 0.02em);
   // font-weight: 500;
   // line-height: 1.14;
   // letter-spacing: 0.02em;
@@ -77,10 +77,10 @@
 
 .contacts__link {
   @include flexbox();
-
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font(16px, 500, $letsp: 0.02em);
+  // font-weight: 500;
+  // line-height: 1.14;
+  // letter-spacing: 0.02em;
   color: var(--second-color);
 
   padding-top: 32px;

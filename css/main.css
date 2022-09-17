@@ -411,8 +411,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  line-height: 1.1428571429;
   font-weight: 500;
-  line-height: 1.14;
+  font-size: 14px;
   letter-spacing: 0.02em;
   color: var(--second-color);
   padding-top: 32px;
@@ -445,11 +446,11 @@ button {
   margin: inherit;
   margin-bottom: 30px;
   width: 696px;
+  line-height: 1.3636363636;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--third-color);
 }
@@ -457,11 +458,11 @@ button {
 .hero__btn {
   margin: 0 auto;
   display: block;
+  line-height: 1.875;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   color: var(--third-color);
   background: var(--active-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -495,15 +496,20 @@ button {
 }
 
 .features__title {
+  line-height: 1.1428571429;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .features__description {
-  line-height: 1.7;
+  line-height: 1.7142857143;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--second-color);
   margin: 0;
 }
