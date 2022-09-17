@@ -11,9 +11,7 @@
 }
 
 .features__icon-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexbox(center);
   height: 120px;
   background-color: var(--fourth-color);
   border-radius: 4px;

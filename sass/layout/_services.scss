@@ -24,9 +24,7 @@
 
 .services__item-overlay {
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexbox(center);
   bottom: 0;
   left: 0;
   width: 100%;

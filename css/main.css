@@ -340,11 +340,13 @@ button {
 .page-header__container {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .navigation {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .navigation__logo {
@@ -354,9 +356,10 @@ button {
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
+  line-height: 1.1923076923;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--active-color);
 }
 
@@ -375,8 +378,9 @@ button {
   position: relative;
   padding-top: 33px;
   padding-bottom: 33px;
+  line-height: 1.1428571429;
   font-weight: 500;
-  line-height: 1.14;
+  font-size: 14px;
   letter-spacing: 0.02em;
   color: inherit;
   transition: color var(--transition-durat-and-func);
@@ -406,6 +410,7 @@ button {
 .contacts__link {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -482,8 +487,8 @@ button {
 
 .features__icon-box {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 120px;
   background-color: var(--fourth-color);
   border-radius: 4px;
@@ -636,8 +641,8 @@ button {
 
 .clients__link {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
   border-radius: 4px;
